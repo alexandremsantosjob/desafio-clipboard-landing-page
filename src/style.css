@@ -1,0 +1,337 @@
+:root{
+
+    /* primary */
+    --color-strong-cyan: hsl(171, 66%, 44%);
+    --color-strong-cyan-hover:  hsl(171, 66%, 52%);
+    --color-light-blue: hsl(233, 100%, 69%);
+    --color-light-blue-hover: hsl(233, 100%, 75%);
+
+    /* neutral */
+    --color-dark-grayish-blue: hsl(210, 10%, 33%);
+    --color-grayish-blue: hsl(201, 11%, 66%);
+
+}
+  
+    /* font-family: 'Bai Jamjuree', sans-serif; */
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(images/bg-header-desktop.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 144.0rem;
+    min-height: 100vh;
+    font-size: 1.8rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13.0rem;
+
+}
+
+.header a{
+    margin-bottom: 7.0rem;
+
+}
+
+.header .header-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header .header-info h1{
+    font-size: 4.0rem;
+    font-weight: 600;
+    color: var(--color-dark-grayish-blue);
+    margin-bottom: 2.8rem;
+
+}
+
+.header .header-info p{
+    color: var(--color-grayish-blue);
+    width: 65.0rem;
+    margin-bottom: 5.5rem;
+}
+
+#btn-ios,
+#btn-mac{
+    font-size: 1.8rem;
+    width: 23.0rem;
+    height: 5.8rem;
+    border-radius: 3.0rem;
+    color: #fff;
+    margin: 1.0rem;
+}
+
+#btn-ios:hover{
+    background-color: var(--color-strong-cyan-hover);
+    box-shadow: var(--color-strong-cyan-hover) 0px 2px 12px 1px;
+    opacity: 1;
+}
+
+#btn-mac:hover{
+    background-color: var(--color-light-blue-hover);
+    box-shadow: var(--color-light-blue-hover) 0px 2px 12px 1px;
+    opacity: 1;
+}
+
+#btn-ios{
+    background-color: var(--color-strong-cyan);
+    border-bottom: 4px solid hsl(171, 66%, 34%);
+    cursor: pointer;
+}
+
+#btn-mac{
+    background-color: var(--color-light-blue);
+    border-bottom: 4px solid hsl(233, 100%, 65%);
+    cursor: pointer;
+}
+
+.hero-painel{
+    display: flex; 
+    
+}
+
+.hero-painel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.hero-painel .hero-if{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-painel .hero-if .hero-info h2{
+    color: var(--color-dark-grayish-blue);
+    margin-bottom: 2.5rem;
+}
+
+.hero-painel .hero-if .hero-info p{
+    color: var(--color-grayish-blue);
+    margin-bottom: 4.0rem;
+    width: 55%;
+    line-height: 2.8rem;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.0rem;
+}
+
+.hero-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20.0rem;
+}
+
+
+.hero-logos{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+
+.hero-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 15.0rem;
+    background-color: hsla(201, 11%, 66%, 0.1);
+    margin-top: 15.0rem;
+
+}
+
+.hero-footer img{
+    width: 4.5rem;
+}
+
+.hero-footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-footer li{
+    margin-bottom: 2.0rem;
+}
+
+.hero-footer a{
+    color: var(--color-dark-grayish-blue);
+
+}
+
+.hero-footer a:hover{
+    color: var(--color-strong-cyan);
+}
+
+.hero-footer .hero-social{
+    display: flex;
+}
+
+.hero-footer .hero-social img{
+    margin-left: 2.0rem;
+    width: 2.5rem;
+}
+
+#facebook:hover,
+#twitter:hover,
+#instagram:hover{
+    transition: 0.5s;
+    transform: scale(1.4);
+}
+
+ .attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} 
+
+@media(max-width: 425px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 425px;
+        padding: 20px;
+        background-image: url(images/bg-header-mobile.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+ 
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 425px;
+
+    }
+   
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.8rem;
+      
+      }
+    .header img{
+        margin-bottom: 4rem;
+      }
+
+    .hero-painel img{
+        width: 50%;
+    }
+    
+    .header-btn{
+        display: flex;
+        flex-direction: column;
+        flex-direction: center;
+        align-items: center;
+    }
+    
+    .header .header-info h1{
+        font-size: 3rem;
+        width: 80%;
+    }
+
+    .header .header-info p{
+        text-align: center;
+        width: 80%;
+    }
+
+
+    .hero-painel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .hero-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+    .hero-image img{
+        width: 80%;
+      }
+ 
+    .hero-2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+      }
+
+  
+    .hero-logos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8rem;
+
+      }
+
+    .hero-logos img{
+        width: 30%;
+        margin-bottom: 8.0rem;
+      }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    footer img{
+        margin-bottom: 10px;
+    }
+
+    .hero-footer a{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
