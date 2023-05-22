@@ -114,7 +114,6 @@ body{
 
 .hero-painel {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
 
@@ -123,6 +122,7 @@ body{
 .hero-painel .hero-if{
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
 }
 
 .hero-painel .hero-if .hero-info h2{
@@ -151,11 +151,18 @@ body{
     margin-bottom: 20.0rem;
 }
 
+.hero-2 .header{
+    width: 30%;
+}
+
+.hero-2 .header p{
+    width: 90%;
+}
 
 .hero-logos{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 70%;
 }
 
 
