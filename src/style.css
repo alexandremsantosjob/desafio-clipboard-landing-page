@@ -115,7 +115,6 @@ body{
 .hero-painel {
     display: flex;
     align-items: center;
-    width: 100%;
 
 }
 
@@ -161,8 +160,11 @@ body{
 
 .hero-logos{
     display: flex;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: center;
+}
+
+.hero-logos img{
+    margin-right: 14rem;
 }
 
 
@@ -171,7 +173,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 100vw;
     min-height: 15.0rem;
     background-color: hsla(201, 11%, 66%, 0.1);
     margin-top: 15.0rem;
@@ -327,7 +329,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         padding: 20px;
     }
 
